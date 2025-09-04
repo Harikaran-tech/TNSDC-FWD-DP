@@ -124,7 +124,7 @@ nav {
   transform: scale(1.2);
 }
 
-/* Hero Section */
+
 #hero {
   text-align: center;
   padding: 6rem 1rem;
@@ -159,7 +159,6 @@ nav {
   transform: translateY(-3px);
 }
 
-/* Sections */
 section {
   padding: 4rem 1rem;
 }
@@ -171,7 +170,7 @@ section h2 {
   color: #007acc;
 }
 
-/* Projects */
+
 .project-grid {
   display: grid;
   gap: 2rem;
@@ -195,7 +194,6 @@ section h2 {
   color: #007acc;
 }
 
-/* Contact Form */
 form {
   max-width: 600px;
   margin: auto;
@@ -233,7 +231,7 @@ form button:hover {
   transform: translateY(-2px);
 }
 
-/* Footer */
+
 footer {
   background: #333;
   color: white;
@@ -243,7 +241,6 @@ footer {
   border-radius: 20px 20px 0 0;
 }
 
-/* Dark Mode */
 .dark-mode {
   background-color: #121212;
   color: #e0e0e0;
@@ -277,7 +274,7 @@ footer {
   background: #000;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   nav {
     order: 3;
@@ -306,3 +303,4 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
